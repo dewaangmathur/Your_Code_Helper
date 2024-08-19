@@ -1,6 +1,6 @@
 # Copilot Extension
 
-The Copilot Extension is a Visual Studio Code extension that provides intelligent code completions using the Groq API. It supports Python, C, and C++ languages.
+The Copilot Extension is a Visual Studio Code extension that provides intelligent code completions using the AI21 LABS API. It supports Python, C, and C++ languages.
 
 ## Features
 
@@ -33,7 +33,7 @@ No additional configuration is required. The extension works out of the box.
 
 ## Contributing
 
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/your-username/your-repo).
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/dewaangmathur/Your_Code_Helper.git).
 
 ## License
 
@@ -41,6 +41,6 @@ This extension is licensed under the MIT License. See the [LICENSE](LICENSE) fil
 
 ## Support
 
-If you need support or have any questions, please reach out to the maintainers via the [GitHub issues page](https://github.com/your-username/your-repo/issues).
+If you need support or have any questions, please reach out to the maintainers via the [GitHub issues page](https://github.com/dewaangmathur/Your_Code_Helper.git/issues).
 
 

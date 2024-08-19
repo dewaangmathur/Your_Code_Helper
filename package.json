@@ -1,21 +1,27 @@
 {
-  "name": "copilot",
-  "displayName": "copilot",
-  "publisher": "your_code_helper",
-  "description": "Code completion using Groq",
-  "version": "0.0.1",
+  "name": "wingmen",
+  "displayName": "wingmen",
+  "publisher": "DewaangMathur",
+  "description": "Code completion using AI21 LABS",
+  "version": "0.0.9",
   "engines": {
     "vscode": "^1.92.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+  "onLanguage:python",
+  "onLanguage:c",
+  "onLanguage:cpp",
+  "onCommand: wingmen.helloWorld"
+  
+],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "copilot.helloWorld",
+        "command": "wingmen.helloWorld",
         "title": "Hello World"
       }
     ]
@@ -48,5 +54,9 @@
   "dependencies": {
     "axios": "^1.7.3",
     "dotenv": "^16.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dewaangmathur/Your_Code_Helper.git"
   }
 }
